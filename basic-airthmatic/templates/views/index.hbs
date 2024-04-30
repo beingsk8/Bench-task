@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+<div class="main-content">
+    <div class="heading">Basic airthmetic Calculator</div>
+    <select class="select-input" id="mySelect" required>
+        <option value="add">add</option>
+        <option value="subtract">subtract</option>
+        <option value="divide">divide</option>
+        <option value="multiply">multiply</option>
+    </select>
+    <div class="main-container">
+        <form>
+            <input class="num1" id="number1" placeholder="Enter Number 1" type="number" required/>
+            <input class="num2" id="number2" placeholder="Enter Number 2" type="number" required/>
+            <button>Calculate</button>
+        </form>
+    </div>
+    <p id="message-1"></p>
+    <p id="message-2"></p>
+</div>
+<script src="/script/script.js"></script>
+</body>
+</html>

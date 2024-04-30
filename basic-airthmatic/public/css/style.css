@@ -1,0 +1,30 @@
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .heading{
+        font-size: 24px;
+        font-weight: bold;
+        font-family: "JetBrains Mono Medium", sans-serif;
+    }
+    .select-input{
+        height: 20px;
+        margin-top: 10px;
+        width: 240px;
+    }
+    .main-container{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        .num1,.num2{
+            height: 20px;
+            outline: none;
+            width: 240px;
+        }
+    }
+
+}
